@@ -1,0 +1,170 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4
+{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1
+{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 100;
+    font-size: 6rem;
+    text-transform: none;
+}
+
+a
+{
+    color: white;
+}
+a:hover
+{  
+    color: #8fa09d;
+}
+/*NAV BAR*/
+.navbar
+{
+    text-transform: uppercase;
+}
+
+.navbar-brand
+{
+    font-family: 'Cedarville Cursive', cursive;
+    text-transform: none;
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+/*HERO*/
+.hero
+{
+    position: relative;
+}
+.hero-text
+{
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* top left corner of the will be placed at 50% after above, 
+    but the centre also should be moved. translate does that */
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    border: 10px solid white;
+}
+.nav-link
+{
+    /* text-transform: none; */
+    /* font-size: 1.25rem; */
+    font-weight: 600;
+    /* font-family: 'Cedarville Cursive', cursive; */
+}
+
+/* About moka (call to action) */
+.dark-background
+{
+    background-color: black;
+    color: white;
+}
+.dark-background span
+{
+    font-family: 'Cedarville Cursive', cursive;
+    text-transform: none;
+    color: #8fa09d;
+}
+.btn-main
+{
+    background-color: #8fa09d;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-main:hover
+{
+    background-color: black;
+    color: #8fa09d;
+}
+
+/* Our Services */
+.section-heading span
+{
+    color: #8fa09d;
+}
+h3
+{
+    font-size: 20px;
+}
+/*  */
+.services p
+{
+    margin: 0;
+}
+.service-icon
+{
+    background-color: #8fa09d;
+}
+
+.service-icon i
+{   
+    font-size: 2rem;
+    color: white;
+}
+/* Testimonials */
+.testimonials
+{
+    background-color: black;
+    color: white;
+}
+.testimonials span
+{
+    text-transform: uppercase;
+    color: #8fa09d;
+}
+.slider-item
+{
+    display: none;
+}
+.active-slider-item
+{
+    display: block;
+}
+
+/* Every rounded-circle class */
+img.rounded-circle
+{
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border: 5px solid #8fa09d;
+}
+
+/* Our Team */
+.team-social-links
+{
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+/* Footer */
+.dark-background p
+{
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.dark-background img
+{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid #8fa09d;
+    position: relative;
+}
