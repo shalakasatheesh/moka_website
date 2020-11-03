@@ -154,6 +154,12 @@ img.rounded-circle
 }
 
 /* Footer */
+/* .inner-row
+{
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+} */
 .dark-background p
 {
     text-transform: uppercase;
@@ -167,4 +173,20 @@ img.rounded-circle
     object-fit: cover;
     border: 5px solid #8fa09d;
     position: relative;
+    margin-left: 2rem;
 }
+
+.footer-logo
+{
+    padding-top: 2rem;
+}
+/* 
+.col-lg-6 p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-social-links a{
+
+    margin-left: 2rem;
+} */
